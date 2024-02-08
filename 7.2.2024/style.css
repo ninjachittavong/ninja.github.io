@@ -1,0 +1,153 @@
+*{
+    font-family: 'Noto Sans Lao', sans-serif;
+}
+body{
+    width: 100%;
+}
+
+.header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+.navbar li a:hover{
+    color: #07726b;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://cdn.pixabay.com/photo/2017/08/06/17/58/people-2594683_1280.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    padding: 0 15%; 
+    color: #1a1a1a; 
+}
+.text h4{
+    padding-bottom: 15px;
+}
+.text h2{
+    font-size: 50px;
+}
+.text h1{
+    font-size: 50px;
+    color: #07726b;
+}
+#products1{
+    text-align: center;
+}
+#products1 .pro{
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.2s ease;
+    position: relative;
+}
+#products1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#products1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+#products1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#products1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+#products1 .pro .des h5{
+    padding: 5px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+#products1 .pro .des h4{
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #07726b;
+}
+#products1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+footer.col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin: 0 0 8px 0;
+}
+footer .follow i{
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+    border: 1px solid #07726b;
+    border-radius: 6px;
+}
+footer .install img{
+    margin: 10px 0 15px 0;
+}
